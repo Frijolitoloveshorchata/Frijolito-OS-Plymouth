@@ -1,4 +1,17 @@
 <p align="center">
+  <img src="assets/logo/logo.png" width="120">
+</p>
+
+<h1 align="center">Frijolito OS</h1>
+
+<p align="center">
+Elegant Linux Mint Customization Project
+</p>
+
+<p align="center">
+  <img src="assets/banner/banner.png">
+</p>
+<p align="center">
   <img src="screenshots/banner.png" alt="Frijolito OS Banner" width="100%">
 </p>
 <p align="center">
