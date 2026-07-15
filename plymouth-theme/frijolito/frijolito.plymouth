@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=Frijolito OS
+Description=Frijolito OS - Powered by Linux Mint
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/frijolito
+ScriptFile=/usr/share/plymouth/themes/frijolito/frijolito.script

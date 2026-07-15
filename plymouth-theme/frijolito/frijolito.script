@@ -1,0 +1,53 @@
+Window.SetBackgroundTopColor(0,0,0);
+Window.SetBackgroundBottomColor(0,0,0);
+
+# Logo Frijolito OS con brillo
+
+logo_glow_image = Image("frijolito_glow.png");
+logo_glow = Sprite(logo_glow_image);
+
+logo_glow.SetX(Window.GetWidth()/2 - logo_glow_image.GetWidth()/2);
+logo_glow.SetY(Window.GetHeight()/2 - logo_glow_image.GetHeight()/2 - 60);
+
+
+logo_image = Image("frijolito.png");
+logo = Sprite(logo_image);
+logo.SetOpacity(0);
+opacity = 0;
+logo.SetX(Window.GetWidth()/2 - logo_image.GetWidth()/2);
+logo.SetY(Window.GetHeight()/2 - logo_image.GetHeight()/2 - 60);
+
+# Barra de carga
+if (opacity < 1)
+{
+    opacity = opacity + 0.05;
+    logo.SetOpacity(opacity);
+}
+
+bar = Sprite();
+
+frame = 1;
+delay = 0;
+fun refresh_callback()
+{
+    image = Image("frame_glow" + frame + ".png");
+
+    delay++;
+
+if (delay >= 15)
+{
+    frame++;
+    delay = 0;
+}
+
+    if (frame > 20)
+    {
+        frame = 1;
+    }
+
+    bar.SetImage(image);
+    bar.SetX(Window.GetWidth()/2 - image.GetWidth()/2);
+    bar.SetY(Window.GetHeight()/2 + 60);
+}
+
+Plymouth.SetRefreshFunction(refresh_callback);
