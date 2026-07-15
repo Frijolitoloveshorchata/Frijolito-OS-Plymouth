@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="screenshots/banner.png" alt="Frijolito OS Banner" width="100%">
+</p>
 # 🍃 Frijolito OS
 
 > **A custom Plymouth boot theme for Linux Mint inspired by the elegance of macOS.**
