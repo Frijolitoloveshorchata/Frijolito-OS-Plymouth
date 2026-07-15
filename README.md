@@ -24,6 +24,17 @@ A handcrafted Plymouth boot theme inspired by the elegance of macOS.
 
 Frijolito OS is a handcrafted Plymouth boot theme designed to give Linux Mint a clean, modern, and elegant startup experience. It features a custom logo, a glowing animation, and a smooth loading bar while preserving fast boot performance.
 
+## 📚 Table of Contents
+
+- ✨ Features
+- 📸 Preview
+- 🚀 Installation
+- 📁 Project Structure
+- 🛣️ Roadmap
+- 🤝 Contributing
+- 📜 License
+- 👨‍💻 Author
+  
 ---
 
 ## ✨ Features
