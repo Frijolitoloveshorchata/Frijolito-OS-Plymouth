@@ -1,9 +1,26 @@
 <p align="center">
   <img src="screenshots/banner.png" alt="Frijolito OS Banner" width="100%">
 </p>
-# 🍃 Frijolito OS
+<p align="center">
 
-> **A custom Plymouth boot theme for Linux Mint inspired by the elegance of macOS.**
+![Linux Mint](https://img.shields.io/badge/Linux%20Mint-Compatible-87CF3E?style=for-the-badge&logo=linuxmint&logoColor=white)
+
+![Plymouth](https://img.shields.io/badge/Plymouth-Theme-1F1F1F?style=for-the-badge)
+
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+
+![Version](https://img.shields.io/badge/Version-v1.0.0-blue?style=for-the-badge)
+
+</p>
+<h1 align="center">
+🍃 Frijolito OS
+</h1>
+
+<p align="center">
+A handcrafted Plymouth boot theme inspired by the elegance of macOS.
+</p>
+
+> 
 
 Frijolito OS is a handcrafted Plymouth boot theme designed to give Linux Mint a clean, modern, and elegant startup experience. It features a custom logo, a glowing animation, and a smooth loading bar while preserving fast boot performance.
 
