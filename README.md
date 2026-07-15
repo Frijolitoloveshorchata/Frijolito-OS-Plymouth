@@ -1,35 +1,116 @@
-# 🍃 Frijolito OS Plymouth Theme
+# 🍃 Frijolito OS
 
-Custom Plymouth boot theme created for Linux Mint (Just for Fun).
+> **A custom Plymouth boot theme for Linux Mint inspired by the elegance of macOS.**
+
+Frijolito OS is a handcrafted Plymouth boot theme designed to give Linux Mint a clean, modern, and elegant startup experience. It features a custom logo, a glowing animation, and a smooth loading bar while preserving fast boot performance.
+
+---
 
 ## ✨ Features
 
-- Custom FRIJOLITO OS branding
-- Powered by Linux Mint subtitle
-- macOS-inspired black boot screen
-- Custom glowing logo
-- Smooth animated loading bar
-- 20-frame animation
+- 🍃 Custom **Frijolito OS** branding
+- 🖤 Minimal black background
+- ✨ Animated glowing logo
+- 📊 Smooth loading bar animation
+- 🎞️ 20-frame animation for fluid motion
+- ⚡ Lightweight and fast
+- 🐧 Designed for Linux Mint
 
-## 🖥️ Preview
+---
 
-Custom boot animation made from scratch.
+## 📸 Preview
 
-## 📦 Installation
+> Screenshots and GIFs coming soon.
 
-Install the theme:
-sudo ./install.sh
+---
 
-Update Plymouth:
-sudo update-insitramfs -u
+## 🚀 Installation
 
-Restart:
+Clone the repository:
+
+```bash
+git clone git@github.com:Frijolitoloveshorchata/Frijolito-OS-Plymouth.git
+```
+
+Enter the project directory:
+
+```bash
+cd Frijolito-OS-Plymouth
+```
+
+Run the installer:
+
+```bash
+chmod +x install.sh
+./install.sh
+```
+
+Reboot your computer:
+
+```bash
 sudo reboot
+```
 
-Requirements
-Linux Mint
-Plymouth
-ImageMagick
-Author
+---
 
-José Emiliano Solís Barajas
+## 📁 Project Structure
+
+```text
+Frijolito-OS-Plymouth
+├── docs/
+├── screenshots/
+├── plymouth-theme/
+│   └── frijolito/
+├── install.sh
+├── uninstall.sh
+└── README.md
+```
+
+---
+
+## 🛣️ Roadmap
+
+### Version 1.0
+- [x] Custom Plymouth theme
+- [x] Custom Frijolito OS logo
+- [x] Animated glowing effect
+- [x] Smooth loading bar
+- [x] Installation script
+
+### Future Plans
+
+- [ ] GRUB theme
+- [ ] Fastfetch configuration
+- [ ] Kitty terminal theme
+- [ ] Wallpapers
+- [ ] GTK customization
+- [ ] Complete Frijolito OS customization toolkit
+
+---
+
+## 🤝 Contributing
+
+Contributions, suggestions, and bug reports are always welcome.
+
+If you'd like to improve Frijolito OS, feel free to open an issue or submit a pull request.
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 👨‍💻 Author
+
+**José Emiliano Solís Barajas**
+
+GitHub: https://github.com/Frijolitoloveshorchata
+
+---
+
+## ⭐ Support the Project
+
+If you like this project, consider giving it a ⭐ on GitHub.
+It helps others discover Frijolito OS and motivates future development.
